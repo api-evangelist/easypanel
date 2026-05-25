@@ -1,0 +1,92 @@
+aid: easypanel
+name: Easypanel
+description: >-
+  Easypanel is a modern, self-hosted server control panel powered by Docker
+  and Docker Swarm that simplifies application deployment, database
+  provisioning, and server management through an intuitive web interface.
+  Operators can deploy applications from GitHub repositories using Heroku
+  Buildpacks (Node.js, Ruby, Python, PHP, Go, Java), custom Dockerfiles, or
+  Cloud Native Buildpacks; provision managed services for MySQL, MariaDB,
+  Postgres, MongoDB, and Redis based on official Docker images; and launch
+  1-click templates from a community library of 100+ applications including
+  WordPress, Ghost, Strapi, Directus, Appsmith, Appwrite, n8n, Activepieces,
+  Anything-LLM, and AdGuard Home. The platform automates Let's Encrypt SSL
+  certificate provisioning, supports zero-downtime deployments, exposes
+  in-browser terminal, database CLI, and log inspection tools, and provides
+  database backup automation. Easypanel is available as a one-click install
+  on DigitalOcean, AWS, Vultr, Linode, Hostinger, and Kamatera marketplaces,
+  or via manual Docker install on any Linux VPS. Commercial plans range from
+  a generous Free tier through Hobby, Growth, and Business tiers with
+  multi-user access control, white-labeling, and clustering. Easypanel
+  exposes a web UI, a Hub for shared templates, and the Dockerizer tool, but
+  does not currently publish a public REST API or first-party developer SDK
+  for programmatic panel control.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Server Control Panel
+  - PaaS
+  - Self-Hosted
+  - Docker
+  - Docker Swarm
+  - Container Orchestration
+  - Application Deployment
+  - Git Deployment
+  - Heroku Buildpacks
+  - Cloud Native Buildpacks
+  - Dockerfile
+  - Compose
+  - Templates
+  - One-Click Install
+  - SSL
+  - Let's Encrypt
+  - Zero Downtime Deployment
+  - Database Backups
+  - VPS
+  - DevOps
+  - Infrastructure
+url: https://raw.githubusercontent.com/api-evangelist/easypanel/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://easypanel.io
+  - type: Documentation
+    url: https://easypanel.io/docs
+  - type: Pricing
+    url: https://easypanel.io/pricing
+  - type: Templates
+    url: https://easypanel.io/templates
+  - type: Hub
+    url: https://hub.easypanel.io
+  - type: Dockerizer
+    url: https://dockerizer.com
+  - type: Blog
+    url: https://easypanel.io/blog
+  - type: Demo
+    url: https://demo.easypanel.io
+  - type: GitHub
+    url: https://github.com/easypanel-io
+  - type: CommunityRepo
+    url: https://github.com/easypanel-io/community
+  - type: TemplatesRepo
+    url: https://github.com/easypanel-io/templates
+  - type: ComposeRepo
+    url: https://github.com/easypanel-io/compose
+  - type: DockerizerRepo
+    url: https://github.com/easypanel-io/dockerizer
+  - type: WHMCSPlugin
+    url: https://github.com/easypanel-io/whmcs-plugin
+  - type: Installer
+    url: https://get.easypanel.io
+  - type: Discord
+    url: https://discord.gg/9bcDSXcZQ7
+  - type: Twitter
+    url: https://twitter.com/easypanel_io
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

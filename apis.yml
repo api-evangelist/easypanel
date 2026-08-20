@@ -38,6 +38,28 @@ access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/easypanel.png
 tags:
   - Server Control Panel
+  - Platform-as-a-Service
+  - Self-Hosted
+  - Docker
+  - Docker Swarm
+  - Container Orchestration
+  - Application Deployment
+  - Git Deployment
+  - Heroku Buildpacks
+  - Cloud Native Buildpacks
+  - Dockerfile
+  - Compose
+  - Templates
+  - One-Click Install
+  - SSL
+  - Let's Encrypt
+  - Zero Downtime Deployment
+  - Database Backups
+  - VPS
+  - DevOps
+  - Infrastructure
+tags_raw:
+  - Server Control Panel
   - PaaS
   - Self-Hosted
   - Docker

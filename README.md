@@ -1,4 +1,4 @@
-# easypanel
+# Easypanel
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Easypanel — modern self-hosted server control panel (deploy from Git, Docker images, templates)
+Easypanel is a modern, self-hosted server control panel powered by Docker and Docker Swarm that simplifies application deployment, database provisioning, and server management through an intuitive web interface. Operators can deploy applications from GitHub repositories using Heroku Buildpacks (Node.js, Ruby, Python, PHP, Go, Java), custom Dockerfiles, or Cloud Native Buildpacks; provision managed services for MySQL, MariaDB, Postgres, MongoDB, and Redis based on official Docker images; and launch 1-click templates from a community library of 100+ applications including WordPress, Ghost, Strapi, Directus, Appsmith, Appwrite, n8n, Activepieces, Anything-LLM, and AdGuard Home. The platform automates Let's Encrypt SSL certificate provisioning, supports zero-downtime deployments, exposes in-browser terminal, database CLI, and log inspection tools, and provides database backup automation. Easypanel is available as a one-click install on DigitalOcean, AWS, Vultr, Linode, Hostinger, and Kamatera marketplaces, or via manual Docker install on any Linux VPS. Commercial plans range from a generous Free tier through Hobby, Growth, and Business tiers with multi-user access control, white-labeling, and clustering. Easypanel exposes a web UI, a Hub for shared templates, and the Dockerizer tool, but does not currently publish a public REST API or first-party developer SDK for programmatic panel control.
+
+**Areas:** Server Control Panel · Platform-as-a-Service · Self-Hosted · Docker · Docker Swarm · Container Orchestration · Application Deployment · Git Deployment · Heroku Buildpacks · Cloud Native Buildpacks · Dockerfile · Compose
+
+## Easypanel on APIs.io
+
+Everything profiled for Easypanel is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/easypanel/](https://apis.io/providers/easypanel/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Easypanel Domain Security](https://apis.io/security/easypanel/easypanel-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://easypanel.io)
+- [Documentation](https://easypanel.io/docs)
+- [Pricing](https://easypanel.io/pricing)
+- [Blog](https://easypanel.io/blog)
+
+## API Evangelist rating
+
+**Kin Score 9.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/easypanel/](https://apis.io/providers/easypanel/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Easypanel: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/easypanel/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
